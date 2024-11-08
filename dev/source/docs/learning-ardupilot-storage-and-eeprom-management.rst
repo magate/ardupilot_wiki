@@ -50,17 +50,8 @@ dynamically determining the size of storage available for this
 interface. If you want dynamically sized storage you need to use Posix
 IO for now.
 
-We don't have an example sketch for the AP_HAL::Storage API, so this is
-your chance to write one. If you have gotten this far into the ArduPilot
-tutorial you should have seen enough example sketches to know how to
-write one from scratch. So write a libraries/AP_HAL/examples/Storage
-example that calculates an 8 bit XOR of the full contents of the
-hal.storage data, and prints it to the console. Then :ref:`submit the example as a patch <submitting-patches-back-to-master>` to the
-ArduPilot github, being careful to follow the patch submission
-guidelines.
-
-I will be quite interested to see how long after I add this exercise to
-the tutorial before we get a submission ....
+There is an example in `AP_HAL/examples/storage/Storage.cpp <https://github.com/ArduPilot/ardupilot/blob/master/libraries/AP_HAL/examples/Storage/Storage.cpp>`__
+of how to calculate an 8 bit XOR of the full contents of the hal.storage data, and print it to the console.
 
 The StorageManager library
 ==========================
