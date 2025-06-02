@@ -133,7 +133,7 @@ limit using the :ref:`AFS_AMSL_LIMIT<AFS_AMSL_LIMIT>` parameter (in meters). Not
 pressure altitude limit is relative to sea level (AMSL stands for "above
 mean sea level").
 
-If both of these parameters are set then the AFS system fill monitor
+If both of these parameters are set then the AFS system will monitor
 pressure altitude and will initiate a termination if the pressure
 altitude rises above the :ref:`AFS_AMSL_LIMIT<AFS_AMSL_LIMIT>`.
 
